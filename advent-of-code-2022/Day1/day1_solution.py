@@ -1,4 +1,4 @@
-elfs = []
+elves = []
 
 
 def parse_elves(file_name: str):
@@ -7,19 +7,19 @@ def parse_elves(file_name: str):
         for line in file:
             line = line.strip()
             if not line:
-                elfs.append(calories)
+                elves.append(calories)
                 calories = 0
             else:
                 calories += int(line)
 
 
 def top_elf_calories():
-    elfs.sort()
-    print(elfs[-1:])
+    elves.sort()
+    print(elves[-1:])
 
 
 def top3_elves_calories():
-    print(sum(elfs[-3:]))
+    print(sum(elves[-3:]))
 
 
 parse_elves("day1_input")
