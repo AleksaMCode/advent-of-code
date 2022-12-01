@@ -1,7 +1,7 @@
 elfs = []
 
 
-def get_max_calories():
+def parse_elves():
     calories = 0
     with open("input") as file:
         for line in file:
@@ -12,13 +12,16 @@ def get_max_calories():
             else:
                 calories += int(line)
 
+
+def top_elf_calories():
     elfs.sort()
     print(elfs[-1:])
 
 
-def sum_of_top_3():
+def top3_elves_calories():
     print(sum(elfs[-3:]))
 
 
-get_max_calories()
-sum_of_top_3()
+parse_elves()
+top_elf_calories()
+top3_elves_calories()
