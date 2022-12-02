@@ -1,6 +1,6 @@
-# Advent of code 2022
+# Advent of code
 
 
-| Year | Solutions | 
-| ---- | --------- |
-| 2022 | [Solutions](advent-of-code-2022) |
+| Year | Solutions | Tests |
+| --- | --- | --- |
+| 2022 | [Solutions](advent_of_code_2022) |  [Tests](test) 
